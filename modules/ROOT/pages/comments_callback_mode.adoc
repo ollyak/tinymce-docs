@@ -8,7 +8,7 @@
 :pluginname: Comments
 
 :plugincode: comments
-
+:commentsMode: callback
 
 *Callback mode* is the default mode for the Comments plugin. In the callback mode, callback functions are required to save user comments on a server. The Comments functions (create, reply, edit, delete comment, delete all conversations, resolve, and lookup) are configured differently depending upon the server-side storage configuration.
 

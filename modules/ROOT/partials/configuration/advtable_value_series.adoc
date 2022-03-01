@@ -5,14 +5,33 @@ The `+advtable_value_series+` option configures one or more series of values for
 
 Type : `+Object+`
 
-Default Value : ```js \{ // Natural number series numeric: \{ title: 'Numeric', update: true, resizable: false, generator: `+GeneratorFunction+` // For details, see: 'Creating a value series generator' }, // English alphabetic series alpha: \{ title: 'Alpha', update: true, resizable: false, generator: `+GeneratorFunction+` // For details, see: 'Creating a value series generator' }, }
+Default Value :
+[source,js]
+----
+{
+  // Natural number series
+  numeric: {
+    title: 'Numeric',
+    update: true,
+    resizable: false,
+    generator: `GeneratorFunction` // For details, see: 'Creating a value series generator'
+  },
+  // English alphabetic series
+  alpha: {
+    title: 'Alpha',
+    update: true,
+    resizable: false,
+    generator: `GeneratorFunction` // For details, see: 'Creating a value series generator'
+  },
+}
+----
 
-....
 Both default series are configured to update on table changes and not resize when using the resize bars.
 
-Each top-level properties of the `advtable_value_series` object are used as the name of the value series and its configuration. In the following example, there are two value series named "`numbers`" and "`letters`":
+Each top-level properties of the `advtable_value_series` object are used as the name of the value series and its configuration. In the following example, there are two value series named `"numbers"` and `"letters"`:
 
-```js
+[source,js]
+----
 {
   numbers: {
     title: 'Numbered',
@@ -23,7 +42,7 @@ Each top-level properties of the `advtable_value_series` object are used as the 
     generator: `GeneratorFunction`
   },
 }
-....
+----
 
 === Series configuration
 
@@ -35,6 +54,7 @@ Each top-level properties of the `advtable_value_series` object are used as the 
 |resizable |`+boolean+` |Optional |default: `+true+` - When `+true+`, table cells containing the series values can be resized using a mouse or touch device.
 |generator |`+(info: GeneratorInfo, rowIndex: number, columnIndex: number) => GeneratorResult+` |Required |For details on creating a value series generator, see: <<creatingavalueseriesgenerator, Creating a value series generator>>.
 |===
+
 
 ==== Creating a value series generator
 
