@@ -4,14 +4,23 @@ _Optional_ - This option sets the author permissions for _deleting comments_. If
 
 Type : `+Function+`
 
-Default Function : ```js function (req, done, fail) \{ var allowed = req.comment.author === <Current_tinycomments_author>; done(\{ canDelete: allowed }); }
+Default Function :
+[source,js]
+----
+function (req, done, fail) {
+  var allowed = req.comment.author === <Current_tinycomments_author>;
+  done({
+    canDelete: allowed
+  });
+}
+----
 
-....
 The following example extends the default behavior to allow the author `<Admin user>` to delete other author's comments by adding `|| currentAuthor === '<Admin user>'`.
 
 #### Example: Using `tinycomments_can_delete_comment`
 
-```js
+[source,js]
+----
 var currentAuthor = 'embedded_journalist';
 
 tinymce.init({
@@ -24,4 +33,4 @@ tinymce.init({
     });
   }
 });
-....
+----

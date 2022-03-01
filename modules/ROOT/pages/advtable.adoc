@@ -1,14 +1,13 @@
 = Advanced Tables plugin
 
 :title_nav: Advanced Tables
-
 :description: Add advanced functionality to tables.
 :keywords: sort rownumbering series tables advanced advtable premium
-
 :pluginname: Advanced Tables
-
 :plugincode: advtable
 :plugincategory: premium
+:altplugincode: nil
+
 include::partial$misc/admon_premium_plugin.adoc[]
 
 The `+advtable+` plugin is a premium plugin that extends the core link:table.html[`+table+` plugin] by adding the following advanced functionality:

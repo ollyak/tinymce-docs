@@ -1,14 +1,12 @@
 = Checklist plugin
 
 :title_nav: Checklist
-
 :description: Add checklists to your content.
 :keywords: lists todo checklist
 :controls: toolbar button
-
 :pluginname: Checklist
-
 :plugincode: checklist
+:altplugincode: nil
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -30,7 +28,6 @@ include::partial$misc/purchase-premium-plugins.adoc[]
 
 Perform the following steps to create a checklist:
 
-[arabic]
 . Place the cursor in the desired location within the {productname} editor.
 . Click the image:icons/checklist.svg[Checklist icon](*Checklist icon*) on the toolbar or the checklist menu item. A checkbox will be added in the desired location.
 . Type in the first item and press `+Enter+` to add another item in the list.

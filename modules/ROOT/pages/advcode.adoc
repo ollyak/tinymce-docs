@@ -1,14 +1,12 @@
 = Advanced Code Editor plugin
 
 :title_nav: Advanced Code Editor
-
 :description: How to setup TinyMCE's Advanced Code Editor plugin.
 :keywords: code advcode codemirror
 :controls: toolbar button, menu item
-
 :pluginname: Advanced Code Editor
-
 :plugincode: advcode
+:altplugincode: code
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
@@ -42,12 +40,7 @@ tinymce.init({
 
 include::partial$misc/advcode-shortcuts.adoc[]
 
-:altplugincode: code
-
-
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
-
-:altplugincode: code
 
 include::partial$misc/plugin-menu-item-id-boilerplate.adoc[]
 

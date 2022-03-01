@@ -1,15 +1,12 @@
 = Case Change
 
 :title_nav: Case Change
-
 :description: Change the case of text.
 :keywords: case capitalization capitalize lowercase uppercase
 :controls: toolbar button, menu item
-
 :pluginname: Case Change
-
 :plugincode: casechange
-
+:altplugincode: nil
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
@@ -28,7 +25,6 @@ include::partial$misc/purchase-premium-plugins.adoc[]
 
 Perform the following steps to change the case of selected text in a document to lowercase, UPPERCASE, or Title Case:
 
-[arabic]
 . Select the desired text to change the case.
 . Click on the image:casechangeicon.png[Case Change] icon in the toolbar.
 . From the drop-down menu, choose the desired format by clicking on either *lowercase*, *UPPERCASE*, or *Title Case*.

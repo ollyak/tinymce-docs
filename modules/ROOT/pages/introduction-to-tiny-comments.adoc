@@ -14,7 +14,7 @@
 
 * For help using comments in TinyMCE, see: link:comments_using_comments.html[Using comments].
 * For an overview of the TinyMCE Comments plugin, see: <<overview, Overview>>.
-* For information on adding and configuring the comments plugin for TinyMCE, see: <<gettingstartedwiththecommentsplugin-selectingamode, Getting started with the Comments plugin - Selecting a mode>>.
+* For information on adding and configuring the comments plugin for TinyMCE, see: <<_getting_started_with_the_comments_plugin_selecting_a_mode, Getting started with the Comments plugin - Selecting a mode>>.
 
 == Overview
 
