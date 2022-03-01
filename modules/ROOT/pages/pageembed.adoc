@@ -1,14 +1,12 @@
 = Page Embed plugin
 
 :title_nav: Page Embed
-
 :description: Easily inserts iframe into the content.
 :keywords: view Page Embed insert iframe
 :controls: toolbar button, menu item
-
 :pluginname: Page Embed
-
 :plugincode: pageembed
+:altplugincode: nil
 
 
 include::partial$misc/admon_premium_plugin.adoc[]

@@ -10,7 +10,7 @@
 :plugincode: comments
 
 
-== Add the Comments plugin in embeddded mode
+== Add the Comments plugin in embedded mode
 
 To add the Comments plugin in embedded mode to the {productname}, configure the following options:
 

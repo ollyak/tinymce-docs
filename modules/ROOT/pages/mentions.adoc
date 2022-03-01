@@ -1,12 +1,9 @@
 = Mentions plugin
 
 :title_nav: Mentions
-
 :description: Enables @mention functionality.
 :keywords: mentions atmentions
-
 :pluginname: Mentions
-
 :plugincode: mentions
 
 

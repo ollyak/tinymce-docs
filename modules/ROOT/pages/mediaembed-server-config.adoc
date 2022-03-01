@@ -5,7 +5,7 @@
 :keywords: enterprise pricing video youtube vimeo mp3 mp4 mov movie clip film link linkchecking linkchecker mediaembed media
 
 
-Once you have the link:introduction-to-premium-selfhosted-services.html[server-side component] installed, additional configuration to your `+application.conf+` file is required. (Don't forget to restart the Java application server after updating the configuration.)
+Once you have the xref:introduction-to-premium-selfhosted-services.adoc[server-side component] installed, additional configuration to your `+application.conf+` file is required. (Don't forget to restart the Java application server after updating the configuration.)
 
 The Enhanced Media Embed service allows you to choose between using your own https://iframely.com/[Iframely] account, configuring custom http://oembed.com/[oEmbed] endpoints or using a combination of both.
 
@@ -25,7 +25,8 @@ To use your own Iframely account, provide the following configuration items:
 
 Example with Iframely enabled (replace `+xxx+` with your Iframely API key):
 
-....
+[source,js]
+----
 ephox {
   embed {
     iframely {
@@ -35,11 +36,12 @@ ephox {
     }
   }
 }
-....
+----
 
 Example with Iframely disabled:
 
-....
+[source,js]
+----
 ephox {
   embed {
     iframely {
@@ -47,7 +49,7 @@ ephox {
     }
   }
 }
-....
+----
 
 == Configure a custom endpoint
 
@@ -60,7 +62,8 @@ The service can be configured to hit a specific oEmbed endpoint when media from 
 
 Example:
 
-....
+[source,js]
+----
 ephox {
   embed {
     custom = [
@@ -287,7 +290,7 @@ ephox {
     ]
   }
 }
-....
+----
 
 == Combining Iframely and custom endpoints
 
@@ -295,7 +298,8 @@ It is also possible to configure Iframely with custom oEmbed endpoints. For exam
 
 Example (replace `+xxx+` with your Iframely API key):
 
-....
+[source,js]
+----
 ephox {
   embed {
     iframely {
@@ -314,10 +318,11 @@ ephox {
     ]
   }
 }
-....
+[source,js]
+----
 
 == Summary cards
 
 If neither Iframely or an oEmbed endpoint is configured for a given URL, a summary card will be created.
 
-A summary card is an embeddable snippet of code which is generated based on what the Enhanced Media Embed service can work out about the content at the URL. See the integration docs for link:mediaembed-server-integration.html[Enhanced Media Embed Server] for further details.
+A summary card is an embeddable snippet of code which is generated based on what the Enhanced Media Embed service can work out about the content at the URL. See the integration docs for xref:mediaembed-server-integration.adoc[Enhanced Media Embed Server] for further details.

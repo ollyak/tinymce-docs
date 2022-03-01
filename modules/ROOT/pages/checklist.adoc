@@ -55,7 +55,7 @@ tinymce.init({
 ----
 
 ____
-*Note*: The *Checklist* plugin has to be used together with the link:lists.html[Lists] plugin to work.
+*Note*: The *Checklist* plugin has to be used together with the xref:lists.adoc[Lists] plugin to work.
 ____
 
 == CSS

@@ -1,14 +1,12 @@
 = Permanent Pen Plugin
 
 :title_nav: Permanent Pen
-
 :description: Apply formats while typing.
 :keywords: permanent pen copy text format style
 :controls: toolbar button, contextmenu, menu item
-
 :pluginname: Permanent Pen
-
 :plugincode: permanentpen
+:altplugincode: nil
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -48,7 +46,6 @@ include::partial$misc/purchase-premium-plugins.adoc[]
 
 === To enable Permanent Pen
 
-[arabic]
 . Click on the image:icons/permanent-pen.svg[Permanent Pen](*Permanent Pen*) toolbar button to enable the Permanent Pen.
 . Place the cursor in the desired text area and start typing.
 
@@ -82,7 +79,6 @@ tinymce.init({
 
 ==== Inline
 
-[arabic]
 . Place the cursor on the text entered using a Permanent Pen.
 . Right-click anywhere from inside the text area.
 . Choose the *Permanent Pen* option.
@@ -99,7 +95,6 @@ ____
 
 === Using the UI
 
-[arabic]
 . Open the *Permanent Pen Properties* dialog box using any of the above methods. image:ppprop.png[Permanent pen properties]
 . Select the desired settings from the *Font* and *Size* drop-down menus.
 . To select the desired *Styles*, click on the radio button next to *Bold*, *Italic*, *Strikethrough*, or *Underline*.
