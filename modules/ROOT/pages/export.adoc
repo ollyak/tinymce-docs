@@ -64,7 +64,7 @@ The following plugins are not supported:
 
 // TODO: These links pointed to missing pages
 * link:[BBCode]
-* xref:introduction_to_tiny_comments.adoc[Comments]
+* xref:introduction-to-tiny-comments.adoc[Comments]
 * xref:introduction-to-mediaembed.adoc[Enhanced Media Embed]
 * link:[Fullpage]
 * link:[Legacy Output]
@@ -76,11 +76,11 @@ The following plugins are not supported:
 
 The following configuration options affect the behavior of the {pluginname} plugin.
 
-include::partial$configuration/image_cors_hosts.adoc[]
+include::partial$configuration/image_cors_hosts.adoc[leveloffset=+1]
 
-include::partial$configuration/export_ignore_elements.adoc[]
+include::partial$configuration/export_ignore_elements.adoc[leveloffset=+1]
 
-include::partial$configuration/image_proxy.adoc[]
+include::partial$configuration/image_proxy.adoc[leveloffset=+1]
 
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
 

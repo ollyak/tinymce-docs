@@ -1,20 +1,18 @@
 = Introduction to Tiny Comments
 
 :title_nav: Introduction
-
 :description: Tiny Comments provides the ability to add comments to the content and collaborate with other users for content editing.
 :keywords: comments commenting tinycomments
-
 :pluginname: Comments
-
 :plugincode: comments
+:pluginminimumplan: enterprise
 
 
 == Contents
 
 * For help using comments in TinyMCE, see: xref:comments_using_comments.adoc[Using comments].
 * For an overview of the TinyMCE Comments plugin, see: xref:#_overview[Overview].
-* For information on adding and configuring the comments plugin for TinyMCE, see: xref:#_getting_started_with_the_comments_plugin_selecting_a_mode[Getting started with the Comments plugin - Selecting a mode].
+* For information on adding and configuring the comments plugin for TinyMCE, see: xref:#_getting_started_with_the_comments_plugin__selecting_a_mode[Getting started with the Comments plugin - Selecting a mode].
 
 == Overview
 
@@ -42,12 +40,9 @@ The Comments plugin allows the user to perform the following functions:
 
 === Interactive example
 
-The following example shows how to configure the Comments plugin in *embedded* mode. For information on configuring the Comments plugin, see: xref:#_getting_started_with_the_comments_plugin_selecting_a_mode[Comments plugin Modes].
+The following example shows how to configure the Comments plugin in *embedded* mode. For information on configuring the Comments plugin, see: xref:#_getting_started_with_the_comments_plugin__selecting_a_mode[Comments plugin Modes].
 
 liveDemo::comments-embedded[ ]
-
-:pluginminimumplan: enterprise
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 

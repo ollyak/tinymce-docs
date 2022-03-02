@@ -6,6 +6,7 @@
 :controls: toolbar button
 :pluginname: Format Painter
 :plugincode: formatpainter
+:pluginminimumplan: tiertwo
 :altplugincode: nil
 
 
@@ -18,9 +19,6 @@ The Format Painter plugin allows a user to copy and paste formatting from one lo
 The format painter retains the formatting after application making it possible to apply the same formatting multiple times by using the `+Ctrl+Alt+V+` keyboard shortcut.
 
 liveDemo::format-painter[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -68,9 +66,9 @@ ____
 
 The format painter acts upon all xref:content-formatting.adoc#formats[`+formats+`] registered in the editor. In addition to any standard formatting, it will treat *lists* as a block format whenever the xref:lists.adoc[`+lists plugin+`] is made available.
 
-include::partial$configuration/formatpainter_formats.adoc[]
+include::partial$configuration/formatpainter_formats.adoc[leveloffset=+1]
 
-include::partial$configuration/formatpainter_blacklisted_formats.adoc[]
+include::partial$configuration/formatpainter_blacklisted_formats.adoc[leveloffset=+1]
 
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
 

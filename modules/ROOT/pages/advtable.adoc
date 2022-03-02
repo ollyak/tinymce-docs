@@ -6,11 +6,12 @@
 :pluginname: Advanced Tables
 :plugincode: advtable
 :plugincategory: premium
+:pluginminimumplan: tierthree
 :altplugincode: nil
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
-The `+advtable+` plugin is a premium plugin that extends the core link:table.html[`+table+` plugin] by adding the following advanced functionality:
+The `+advtable+` plugin is a premium plugin that extends the core xref:table.adoc[`+table+` plugin] by adding the following advanced functionality:
 
 * Sort options for rows and columns.
 * Row numbering column for tables.
@@ -18,9 +19,6 @@ The `+advtable+` plugin is a premium plugin that extends the core link:table.htm
 == Try our Advanced Tables Demo
 
 liveDemo::advtable[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -66,7 +64,7 @@ ____
 
 A row numbering column containing a series of values can be added to a table to help identify rows in a table. To allow row numbering on tables, the `+advtablerownumbering+` toolbar button and menu item can be used.
 
-A numeric and alpha value series are available by default. The available value series can be configured using the xref:#_advtable_value_series[`+advtable_value_series+` option].
+A numeric and alpha value series are available by default. The available value series can be configured using the xref:#advtable_value_series[`+advtable_value_series+` option].
 
 image:advtable_row_numbering.png[Table with numeric row numbering column and row numbering menu open (Numeric item checked)]
 

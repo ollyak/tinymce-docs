@@ -44,21 +44,21 @@ When using callback mode, the Comments plugin requires callback functions for th
 
 The xref:#_tinycomments_resolve[`+tinycomments_resolve+`] option is _optional_.
 
-include::partial$configuration/tinycomments_create.adoc[]
+include::partial$configuration/tinycomments_create.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_reply.adoc[]
+include::partial$configuration/tinycomments_reply.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_edit_comment.adoc[]
+include::partial$configuration/tinycomments_edit_comment.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_resolve.adoc[]
+include::partial$configuration/tinycomments_resolve.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_delete_comment.adoc[]
+include::partial$configuration/tinycomments_delete_comment.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_delete.adoc[]
+include::partial$configuration/tinycomments_delete.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_delete_all.adoc[]
+include::partial$configuration/tinycomments_delete_all.adoc[leveloffset=+1]
 
-include::partial$configuration/tinycomments_lookup.adoc[]
+include::partial$configuration/tinycomments_lookup.adoc[leveloffset=+1]
 
 include::partial$plugins/comments_open_sidebar.adoc[]
 

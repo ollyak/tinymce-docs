@@ -9,29 +9,29 @@
 
 == Configuration Options
 
-include::partial$configuration/paste_as_text.adoc[]
+include::partial$configuration/paste_as_text.adoc[leveloffset=+1]
 
-include::partial$configuration/paste_merge_formats.adoc[]
+include::partial$configuration/paste_merge_formats.adoc[leveloffset=+1]
 
-include::partial$configuration/paste_tab_spaces.adoc[]
+include::partial$configuration/paste_tab_spaces.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_word_import.adoc[]
+include::partial$configuration/powerpaste_word_import.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_googledocs_import.adoc[]
+include::partial$configuration/powerpaste_googledocs_import.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_html_import.adoc[]
+include::partial$configuration/powerpaste_html_import.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_allow_local_images.adoc[]
+include::partial$configuration/powerpaste_allow_local_images.adoc[leveloffset=+1]
 
-include::partial$configuration/paste_block_drop.adoc[]
+include::partial$configuration/paste_block_drop.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_clean_filtered_inline_elements.adoc[]
+include::partial$configuration/powerpaste_clean_filtered_inline_elements.adoc[leveloffset=+1]
 
-include::partial$configuration/powerpaste_keep_unsupported_src.adoc[]
+include::partial$configuration/powerpaste_keep_unsupported_src.adoc[leveloffset=+1]
 
-include::partial$configuration/smart_paste.adoc[]
+include::partial$configuration/smart_paste.adoc[leveloffset=+1]
 
-include::partial$configuration/image_file_types.adoc[]
+include::partial$configuration/image_file_types.adoc[leveloffset=+1]
 
 == Advanced Config Options
 
@@ -43,6 +43,6 @@ ____
 *Note*: These callbacks are also triggered by the core Paste plugin, but when triggered by PowerPaste they are passed more data.
 ____
 
-include::partial$configuration/paste_preprocess.adoc[]
+include::partial$configuration/paste_preprocess.adoc[leveloffset=+1]
 
-include::partial$configuration/paste_postprocess.adoc[]
+include::partial$configuration/paste_postprocess.adoc[leveloffset=+1]

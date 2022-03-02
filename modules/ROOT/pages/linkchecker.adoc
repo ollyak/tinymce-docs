@@ -5,6 +5,7 @@
 :keywords: url urls link linkchecker_service_url linkchecker_content_css
 :pluginname: Link Checker
 :plugincode: linkchecker
+:pluginminimumplan: tierthree
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -16,9 +17,6 @@ The Link Checker plugin relies on HTTP response status codes to determine if a l
 == Interactive example
 
 liveDemo::linkchecker[ ]
-
-:pluginminimumplan: tierthree
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -55,8 +53,8 @@ tinymce.init({
 
 Link Checker has the following settings.
 
-include::partial$configuration/linkchecker_content_css.adoc[]
+include::partial$configuration/linkchecker_content_css.adoc[leveloffset=+1]
 
-include::partial$configuration/linkchecker_preprocess.adoc[]
+include::partial$configuration/linkchecker_preprocess.adoc[leveloffset=+1]
 
-include::partial$configuration/linkchecker_service_url.adoc[]
+include::partial$configuration/linkchecker_service_url.adoc[leveloffset=+1]

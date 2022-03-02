@@ -6,6 +6,7 @@
 :controls: toolbar button, menu item
 :pluginname: Page Embed
 :plugincode: pageembed
+:pluginminimumplan: tiertwo
 :altplugincode: nil
 
 
@@ -20,9 +21,6 @@ The *Page Embed* plugin embeds a page in the content using an iframe (Inline fra
 == Try our Page Embed plugin demo
 
 liveDemo::page-embed[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -46,7 +44,6 @@ tinymce.init({
 
 Use the following procedure for embedding an iframe into the content:
 
-[arabic]
 . Click on the image:icons/embed-page.svg[Page Embed](*Page Embed*) toolbar button.
 . The *InsertEdit Iframe* dialog box appears. image:insert-iframes.png[InsertEdit Iframe]
 . In the *General* tab, enter the url in the *Source* field, or click on the image:icons/browse.svg[Source](*Source*) icon to upload a file.
@@ -81,9 +78,9 @@ ____
 
 == Options to configure the Page Embed properties
 
-include::partial$configuration/tiny_pageembed_classes.adoc[]
+include::partial$configuration/tiny_pageembed_classes.adoc[leveloffset=+1]
 
-include::partial$configuration/tiny_pageembed_inline_styles.adoc[]
+include::partial$configuration/tiny_pageembed_inline_styles.adoc[leveloffset=+1]
 
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
 

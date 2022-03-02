@@ -6,6 +6,7 @@
 :controls: toolbar button, contextmenu, menu item
 :pluginname: Permanent Pen
 :plugincode: permanentpen
+:pluginminimumplan: tiertwo
 :altplugincode: nil
 
 
@@ -36,9 +37,6 @@ For more information on {productname} formats, refer to the xref:content-formatt
 == Try our Permanent Pen demo
 
 liveDemo::permanent-pen[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -120,7 +118,7 @@ tinymce.init({
 
 == Options
 
-include::partial$configuration/permanentpen_properties.adoc[]
+include::partial$configuration/permanentpen_properties.adoc[leveloffset=+1]
 
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
 

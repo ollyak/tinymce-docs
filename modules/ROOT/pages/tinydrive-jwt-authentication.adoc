@@ -31,7 +31,6 @@ ____
 
 To set up JSON Web Token (JWT) authentication for {productname} {pluginname}:
 
-[arabic]
 . Add a public key to your {accountpage}.
 . Set up a JSON Web Token (JWT) Provider endpoint.
 . Configure {productname} to use the JWT endpoint.

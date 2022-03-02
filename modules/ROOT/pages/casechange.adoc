@@ -6,7 +6,9 @@
 :controls: toolbar button, menu item
 :pluginname: Case Change
 :plugincode: casechange
+:pluginminimumplan: tiertwo
 :altplugincode: nil
+
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
@@ -15,9 +17,6 @@ The *Case Change* plugin is a time saving and handy extension that allows changi
 == Try our Case Change demo
 
 liveDemo::casechange[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
@@ -53,7 +52,7 @@ The *Title Case* option changes anything other than articles, coordinating conju
 
 *Title Case* can be customized to create user defined rule sets by using the following options:
 
-include::partial$configuration/casechange_title_case_minors.adoc[]
+include::partial$configuration/casechange_title_case_minors.adoc[leveloffset=+1]
 
 include::partial$misc/plugin-toolbar-button-id-boilerplate.adoc[]
 
