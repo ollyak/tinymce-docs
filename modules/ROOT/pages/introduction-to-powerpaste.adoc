@@ -1,12 +1,9 @@
 = Introduction to PowerPaste
 
 :title_nav: Introduction
-
 :description: The PowerPaste plugin automatically cleans up content from Microsoft Word, Microsoft Excel, Google Docs, and HTML sources.
 :keywords: enterprise powerpaste power microsoft word excel google docs
-
 :pluginname: PowerPaste
-
 :plugincode: powerpaste
 
 
@@ -33,7 +30,7 @@ The *PowerPaste* plugin activates automatically when users paste content into th
 
 To paste clipboard content as plain text, users can click the "Paste As Text" toolbar button or menu item, then paste the content normally. The {productname} *PowerPaste* plugin will convert the HTML on the clipboard into plain text.
 
-If you configure *PowerPaste* to allow local images (see the xref:powerpaste_options.adoc#powerpaste_allow_local_images[`+powerpaste_allow_local_images+`] setting below), then images copied from Microsoft Word and other sources will appear in {productname} as Base64 encoded images. You can have {productname} automatically upload Base64 encoded images for reverting back to a standard image as described in the link:handle-async-image-uploads.html[image upload documentation].
+If you configure *PowerPaste* to allow local images (see the xref:powerpaste_options.adoc#_powerpaste_allow_local_images[`+powerpaste_allow_local_images+`] setting below), then images copied from Microsoft Word and other sources will appear in {productname} as Base64 encoded images. You can have {productname} automatically upload Base64 encoded images for reverting back to a standard image as described in the xref:upload-images.adoc[image upload documentation].
 
 ____
 *Note:* PowerPaste (when configured to allow local images) will import images from pasted Microsoft Word and Microsoft Excel content. When doing this, *PowerPaste* extracts Base64 encoded images from the clipboard. Images larger than approximately 8.5MB may fail to import based on technical limitations of web browsers.
@@ -41,9 +38,8 @@ ____
 
 == Cloud Installation
 
-To enable the {productname} *PowerPaste* plugin with link:/cloud-deployment-guide/editor-and-features/[{cloudname}]:
+To enable the {productname} *PowerPaste* plugin with xref:editor-and-features.adoc[{cloudname}]:
 
-[arabic]
 . If you are currently using the `+paste+` plugin provided with {productname}, disable it by removing it from the `+plugins+` list.
 . Add `+powerpaste+` to the `+plugins+` list.
 
@@ -61,7 +57,6 @@ tinymce.init({
 
 To enable the {productname} *PowerPaste* plugin:
 
-[arabic]
 . If you are currently using the `+paste+` plugin provided with {productname}, disable it by removing it from the `+plugins+` list.
 . Add `+powerpaste+` to the `+plugins+` list in your {productname} configuration.
 
