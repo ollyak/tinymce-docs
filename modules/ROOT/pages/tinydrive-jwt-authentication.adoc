@@ -17,15 +17,15 @@ A JSON Web Token (JWT) endpoint is a service for generating and providing author
 JWT is a standard authorization solution for web services and is documented in more detail at the https://jwt.io/[https://jwt.io/] website. The guide aims to show how to setup JWT authentication for {pluginname}.
 
 ____
-If you haven't tried any of the link:getting-started.html#starterprojects[Starter projects] yet, we urge you to try them before trying to implement your solution. The source is also available on Github to study.
+If you haven't tried any of the xref:tinydrive-getting-started.adoc#_starter_projects[Starter projects] yet, we urge you to try them before trying to implement your solution. The source is also available on Github to study.
 ____
 
 == Overview
 
-* <<settingupjwtauthenticationfortinydrive, Setting up JWT authentication for Tiny Drive>>
-* <<addapublickeytothetinycloudapikey, Add a public key to the Tiny Cloud API key>>
-* <<setupajsonwebtokenjwtendpoint, Set up a JSON Web Token (JWT) endpoint>>
-* <<jwtendpointexamples, JWT endpoint examples>>
+* xref:#_setting_up_jwt_authentication_for_tiny_drive[Setting up JWT authentication for Tiny Drive]
+* xref:#_add_a_public_key_to_the_tiny_cloud_api_key[Add a public key to the Tiny Cloud API key]
+* xref:#_set_up_a_json_web_token_jwt_endpoint[Set up a JSON Web Token (JWT) endpoint]
+* xref:#_jwt_endpoint_examples_[JWT endpoint examples]
 
 == Setting up JWT authentication for Tiny Drive
 
@@ -48,7 +48,7 @@ A JSON Web Token (JWT) endpoint for {pluginname} requires:
 
 * The endpoint or server accepts a JSON HTTP POST request.
 * User authentication - A method of verifying the user, and that they should have access to the {pluginname}.
-* The JWTs are generated (signed) using the _private_ key that pairs with the _public_ key provided to link:{accountpageurl}/jwt/[{accountpage} - JWT Keys].
+* The JWTs are generated (signed) using the _private_ key that pairs with the _public_ key provided to {jwturl}[{accountpage} - JWT Keys].
 * The endpoint or server produces a JSON response with the token. {pluginname} will submit the token with requests to the {pluginname} Server.
 
 === Required JWT claims for {pluginname}
@@ -69,16 +69,15 @@ ____
 
 The following examples show a minimal JWT endpoint and how to configure {productname} to use them.
 
-* <<phptokenproviderendpointexample, PHP token provider endpoint example>>
-* <<nodejstokenproviderendpointexample, Node.js token provider endpoint example>>
+* xref:#_php_token_provider_endpoint_example[PHP token provider endpoint example]
+* xref:#_node_js_token_provider_endpoint_example[Node.js token provider endpoint example]
 
 === PHP token provider endpoint example
 
 This example uses the https://github.com/firebase/php-jwt[Firebase JWT library] provided through the Composer dependency manager.
 
-`+$privateKey+` should be the _private_ key that pairs with the _public_ key generated at (or provided to) link:{accountpageurl}/jwt/[{accountpage} - JWT Keys].
+`+$privateKey+` should be the _private_ key that pairs with the _public_ key generated at (or provided to) {jwturl}[{accountpage} - JWT Keys].
 
-[[jwtphp]]
 ==== jwt.php
 
 [source,php]
@@ -121,7 +120,6 @@ try {
 ?>
 ----
 
-[[tinymce-example-using-the-jwtphp-endpoint]]
 ==== TinyMCE example using the jwt.php endpoint
 
 [source,js]
@@ -134,12 +132,11 @@ tinymce.init({
 });
 ----
 
-[[nodejs-token-provider-endpoint-example]]
 === Node.js token provider endpoint example
 
-This example shows you how to set up a Node.js express handler that produces the tokens. It requires you to install the Express web framework and the `+jsonwebtoken+` Node modules. For instructions on setting up a basic Node.js Express server and adding {productname}, see: link:expressjs.html[Integrating TinyMCE into an Express JS App].
+This example shows you how to set up a Node.js express handler that produces the tokens. It requires you to install the Express web framework and the `+jsonwebtoken+` Node modules. For instructions on setting up a basic Node.js Express server and adding {productname}, see: xref:expressjs-pm.adoc[Integrating TinyMCE into an Express JS App].
 
-`+privateKey+` should be the _private_ key that pairs with the _public_ key generated at (or provided to) link:{accountpageurl}/jwt/[{accountpage} - JWT Keys].
+`+privateKey+` should be the _private_ key that pairs with the _public_ key generated at (or provided to) {jwturl}[{accountpage} - JWT Keys].
 
 ==== /jwt
 
