@@ -36,13 +36,13 @@ The following plugins are currently supported:
 * xref:help.adoc[Help (`+help+`)]
 * xref:image.adoc[Image (`+image+`)]
 ** Captioned images are not yet supported.
-** The xref:image.adoc#_image_caption[`+image_caption+`] option is not supported.
+** The xref:image.adoc#image_caption[`+image_caption+`] option is not supported.
 * xref:insertdatetime.adoc[Insert Date/Time (`+insertdatetime+`)]
 * xref:link.adoc[Link (`+link+`)]
-** The xref:link.adoc#_link_rel_list[`+link_rel_list+`] option is not supported.
+** The xref:link.adoc#link_rel_list[`+link_rel_list+`] option is not supported.
 * xref:lists.adoc[Lists (`+lists+`)]
 * xref:moxiemanager.adoc[MoxieManager (`+moxiemanager+`)]
-* xref:introduction_to_powerpaste.adoc[PowerPaste (`+powerpaste+`)]
+* xref:introduction-to-powerpaste.adoc[PowerPaste (`+powerpaste+`)]
 * xref:save.adoc[Save (`+save+`)]
 * xref:tinydrive-introduction.adoc[Tiny Drive (`+tinydrive+`)]
 * xref:visualblocks.adoc[Visual Blocks (`+visualblocks+`)]
@@ -58,23 +58,23 @@ When planning to integrate Real-Time Collaboration into your application or webs
 
 == Options that are not available when RTC is enabled
 
-* xref:content-filtering.adoc#_allow_unsafe_link_target[`+allow_unsafe_link_target+`]
-* xref:content-filtering.adoc#_br_in_pre[`+br_in_pre+`]
-* xref:content-filtering.adoc#_custom_elements[`+custom_elements+`]
+* xref:content-filtering.adoc#allow_unsafe_link_target[`+allow_unsafe_link_target+`]
+* xref:content-filtering.adoc#br_in_pre[`+br_in_pre+`]
+* xref:content-filtering.adoc#custom_elements[`+custom_elements+`]
 * xref:content-behavior-options.adoc#end_container_on_empty_block[`+end_container_on_empty_block+`]
-* xref:content-filtering.adoc#_extended_valid_elements[`+extended_valid_elements+`]
-* xref:content-filtering.adoc#_forced_root_block[`+forced_root_block+`]
-* xref:content-filtering.adoc#_forced_root_block_attrs[`+forced_root_block_attrs+`]
-* xref:content-formatting.adoc#_format_empty_lines[`+format_empty_lines+`]
+* xref:content-filtering.adoc#extended_valid_elements[`+extended_valid_elements+`]
+* xref:content-filtering.adoc#forced_root_block[`+forced_root_block+`]
+* xref:content-filtering.adoc#forced_root_block_attrs[`+forced_root_block_attrs+`]
+* xref:content-formatting.adoc#format_empty_lines[`+format_empty_lines+`]
 * xref:spelling.adoc#gecko_spellcheck[`+gecko_spellcheck+`]
-* xref:image.adoc#_image_caption[`+image_caption+`]
+* xref:image.adoc#image_caption[`+image_caption+`]
 * xref:file-image-upload.adoc#images_dataimg_filter[`+images_dataimg_filter+`]
 * xref:user-formatting-options.adoc#indent_use_margin[`+indent_use_margin+`]
 * xref:content-behavior-options.adoc#inline_boundaries[`+inline_boundaries+`]
 * xref:content-behavior-options.adoc#inline_boundaries_selector[`+inline_boundaries_selector+`]
 * xref:content-behavior-options.adoc#keep_styles[`+keep_styles+`]
 * xref:editor-important-options.adoc#placeholder[`+placeholder+`]
-* xref:content-filtering.adoc#_protect[`+protect+`]
-* xref:link.adoc#_link_rel_list[`+link_rel_list+`]
-* xref:content-filtering.adoc#_valid_children[`+valid_children+`]
-* xref:content-filtering.adoc#_valid_elements[`+valid_elements+`]
+* xref:content-filtering.adoc#protect[`+protect+`]
+* xref:link.adoc#link_rel_list[`+link_rel_list+`]
+* xref:content-filtering.adoc#valid_children[`+valid_children+`]
+* xref:content-filtering.adoc#valid_elements[`+valid_elements+`]
