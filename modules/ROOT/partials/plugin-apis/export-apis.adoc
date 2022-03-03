@@ -6,7 +6,7 @@
 |===
 
 ____
-*Note:* There are no settings available when using the 'clientpdf' format.
+NOTE: There are no settings available when using the 'clientpdf' format.
 ____
 
 .Examples

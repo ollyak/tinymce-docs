@@ -20,7 +20,7 @@ Input parameters :
 [cols=",,",options="header",]
 |===
 |Field |Type |Description
-|`+documentId+` |`+string+` | The document ID from the xref:rtc_document_id[`+rtc_document_id+`] option.
+|`+documentId+` |`+string+` | The document ID from the xref:rtc-options-required.adoc#rtc_document_id[`+rtc_document_id+`] option.
 |===
 
 Return data :

@@ -116,7 +116,7 @@ tinymce.init({
 });
 ----
 
-== Configuration options
+== Options
 
 include::partial$configuration/permanentpen_properties.adoc[leveloffset=+1]
 

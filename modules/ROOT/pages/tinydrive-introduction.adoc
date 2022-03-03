@@ -12,7 +12,7 @@
 For documentation on using {cloudfilemanager} outside {productname}, visit: xref:tinydrive-dropbox-and-google-drive.adoc[{cloudfilemanager} documentation].
 
 ____
-*Note*: This plugin is only available for {pricingpage}[{cloudname} users].
+NOTE: This plugin is only available for link:{pricingpage}/[{cloudname} users].
 ____
 
 == Tiny Drive features
@@ -30,7 +30,7 @@ ____
 |Integrations |Integrations with Google Drive and Dropbox allows you to import file from these systems through {cloudfilemanager}
 |===
 
-The storage and bandwidth quota varies based upon your {pricingpage}[{cloudname} Plan].
+The storage and bandwidth quota varies based upon your link:{pricingpage}/[{cloudname} Plan].
 
 == Interactive example
 

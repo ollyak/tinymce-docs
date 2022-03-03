@@ -26,7 +26,7 @@ To use your own Iframely account, provide the following configuration items:
 
 Example with Iframely enabled (replace `+xxx+` with your Iframely API key):
 
-[source,js]
+[source,conf]
 ----
 ephox {
   embed {
@@ -41,7 +41,7 @@ ephox {
 
 Example with Iframely disabled:
 
-[source,js]
+[source,conf]
 ----
 ephox {
   embed {
@@ -64,7 +64,7 @@ The service can be configured to hit a specific oEmbed endpoint when media from 
 
 Example:
 
-[source,js]
+[source,conf]
 ----
 ephox {
   embed {
@@ -301,7 +301,7 @@ It is also possible to configure Iframely with custom oEmbed endpoints. For exam
 
 Example (replace `+xxx+` with your Iframely API key):
 
-[source,js]
+[source,conf]
 ----
 ephox {
   embed {
@@ -321,7 +321,6 @@ ephox {
     ]
   }
 }
-[source,js]
 ----
 
 [[summary_cards]]

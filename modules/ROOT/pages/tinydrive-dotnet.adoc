@@ -32,7 +32,7 @@ These are the steps needed to get this project running on your machine:
 [[clone-this-repo-to-your-local-machine-using]]
 ==== 1. Clone this repo to your local machine using
 
-[source,shell script]
+[source,sh]
 ----
 $ git clone git@github.com:tinymce/tinydrive-dotnet-starter.git
 ----
@@ -50,7 +50,7 @@ You get the private RSA key from the `+JWT Key Manager+` {accountpage} page at h
 [[go-to-the-directory-and-start-the-dev-server]]
 ==== 4. Go to the directory and start the dev server
 
-[source,shell script]
+[source,sh]
 ----
 $ cd tinydrive-dotnet-starter
 $ dotnet run

@@ -33,7 +33,7 @@ As an example:
 If your content is marked up with Open Graph tags and is accessible with a HTTP GET request from the Enhanced Media Embed server, then business card style embeds will be created based on your content.
 
 ____
-*Note:* If Iframely is enabled in the configuration, then the Open Graph look up will be performed by Iframely. Iframely requires that the content be publicly accessible on the Internet.
+NOTE: If Iframely is enabled in the configuration, then the Open Graph look up will be performed by Iframely. Iframely requires that the content be publicly accessible on the Internet.
 ____
 
 At a minimum, you’ll need to define these Open Graph tags:

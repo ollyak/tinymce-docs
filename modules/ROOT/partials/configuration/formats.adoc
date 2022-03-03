@@ -73,7 +73,7 @@ tinymce.init({
 });
 ----
 
-A registered format can also be used by name with the built-in xref:using_custom_formats[Using custom formats] for an example.
+A registered format can also be used by name with the built-in xref:user-formatting-options.adoc#using_custom_formats[Using custom formats] for an example.
 
 [[block]]
 ==== `+block+`

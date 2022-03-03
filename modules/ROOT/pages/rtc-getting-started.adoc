@@ -26,7 +26,7 @@ The steps required for setting up Real-Time Collaboration for {productname} are:
 [[register_for_a_tiny_cloud_api_key]]
 == 1. Register for a Tiny Cloud API key
 
-If you do not have a {cloudname} API key, you can sign up for a trial or purchase a subscription on the {pricingpage}[{companyname} pricing page].
+If you do not have a {cloudname} API key, you can sign up for a trial or purchase a subscription on the link:{pricingpage}/[{companyname} pricing page].
 
 include::partial$auth/private-public-key-pairs-for-tiny-cloud-services.adoc[leveloffset=+1]
 
