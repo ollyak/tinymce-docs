@@ -64,7 +64,7 @@ ____
 
 A row numbering column containing a series of values can be added to a table to help identify rows in a table. To allow row numbering on tables, the `+advtablerownumbering+` toolbar button and menu item can be used.
 
-A numeric and alpha value series are available by default. The available value series can be configured using the xref:#advtable_value_series[`+advtable_value_series+` option].
+A numeric and alpha value series are available by default. The available value series can be configured using the xref:advtable_value_series[`+advtable_value_series+` option].
 
 image:advtable_row_numbering.png[Table with numeric row numbering column and row numbering menu open (Numeric item checked)]
 
@@ -86,4 +86,4 @@ include::partial$commands/advtable-cmds.adoc[]
 
 == Events
 
-For events applicable to the Advanced Tables plugin, see: xref:table.adoc#_events[Table plugin - Events].
+For events applicable to the Advanced Tables plugin, see: xref:table.adoc#events[Table plugin - Events].

@@ -49,7 +49,7 @@ tinymce.init({
 });
 ----
 
-== Options
+== Configuration options
 
 Link Checker has the following settings.
 

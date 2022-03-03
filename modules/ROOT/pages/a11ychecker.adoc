@@ -35,6 +35,7 @@ tinymce.init({
 });
 ----
 
+[[accessibility_rules]]
 == Accessibility Rules
 
 The following checks are available for the {pluginname} plugin. The rules checked depends on:
@@ -58,7 +59,7 @@ Notification level (severity) : Warning
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specifications : * https://www.w3.org/WAI/WCAG21/Techniques/html/H42.html[H42 - Using h1-h6 to identify headings].
 
@@ -76,7 +77,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G141.html[G141 - Organizing a page using headings].
 
@@ -92,7 +93,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H2.html[H2 - Combining adjacent image and text links for the same resource].
 
@@ -106,7 +107,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H48.html[H48 - Using ol, ul and dl for lists or groups of links].
 
@@ -120,7 +121,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H48.html[H48 - Using ol, ul and dl for lists or groups of links].
 
@@ -142,7 +143,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level AA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G145.html[G145 - Ensuring that a contrast ratio of at least 3:1 exists between text (and images of text) and background behind the text].
 
@@ -152,7 +153,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level AA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G18.html[G18 - Ensuring that a contrast ratio of at least 4.5:1 exists between text (and images of text) and background behind the text].
 
@@ -162,7 +163,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G17.html[G17 - Ensuring that a contrast ratio of at least 7:1 exists between text (and images of text) and background behind the text].
 
@@ -176,7 +177,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H93.html[H93 - Ensuring that id attributes are unique on a Web page].
 
@@ -190,7 +191,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G95.html[G95 - Providing short text alternatives that provide a brief description of the non-text content].
 
@@ -204,7 +205,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/general/G95.html[G95 - Providing short text alternatives that provide a brief description of the non-text content].
 
@@ -218,7 +219,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref_a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H39.html[H39 - Using caption elements to associate data table captions with data tables].
 
@@ -236,7 +237,7 @@ Notification level (severity) : Warning
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4
+xref:a11ychecker_html_version[HTML version] : HTML4
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H73.html[H73 - Using the summary attribute of the table element to give an overview of data tables].
 
@@ -254,7 +255,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H73.html[H73 - Using the summary attribute of the table element to give an overview of data tables].
 
@@ -268,7 +269,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H51.html[H51 - Using table markup to present tabular information].
 
@@ -282,7 +283,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H51.html[H51 - Using table markup to present tabular information].
 
@@ -296,7 +297,7 @@ Notification level (severity) : Error
 
 https://www.w3.org/TR/WCAG21/#conformance[WCAG level] : Level A ; Level AA ; Level AAA
 
-xref:#_a11ychecker_html_version[HTML version] : HTML4 and HTML5
+xref:a11ychecker_html_version[HTML version] : HTML4 and HTML5
 
 WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H63.html[H63 - Using the scope attribute to associate header cells and data cells in data tables].
 
@@ -326,6 +327,7 @@ include::partial$misc/plugin-menu-item-id-boilerplate.adoc[]
 
 The {pluginname} plugin provides the following APIs.
 
+[[toggleaudit]]
 === `+toggleaudit()+`
 
 Opens and closes the accessibility checker dialog with the results of the audit and options to correct the problems, if any.
@@ -337,11 +339,12 @@ Opens and closes the accessibility checker dialog with the results of the audit 
 editor.plugins.a11ychecker.toggleaudit();
 ----
 
+[[getreport]]
 === `+getReport()+`
 
 Conducts an accessibility audit and reports the results without opening the dialog. The report produced is an array of objects, where each object represents an issue and contains the following details:
 
-id : The issue identifier used by {productname}, such as D1, T4A. For a description and other details about the issue, see xref:#_accessibility_rules[Accessibility Rules].
+id : The issue identifier used by {productname}, such as D1, T4A. For a description and other details about the issue, see xref:accessibility_rules[Accessibility Rules].
 
 description : A description of the issue.
 

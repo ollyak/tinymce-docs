@@ -1,3 +1,4 @@
+[[tinycomments_resolve]]
 == `+tinycomments_resolve+`
 
 This option adds a _Resolve Conversation_ item to the dropdown menu of the first comment in a conversation.

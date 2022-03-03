@@ -1,3 +1,4 @@
+[[paste_preprocess]]
 == `+paste_preprocess+`
 
 ifeval::["{pluginname}" == "Paste"]

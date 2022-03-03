@@ -24,7 +24,7 @@ include::partial$misc/purchase-premium-plugins.adoc[]
 
 == Basic setup
 
-To add the {pluginname} plugin to the editor, add `+pass:a[{plugincode}]+` to the `+plugins+` option in the editor configuration.
+To add the {pluginname} plugin to the editor, add `{plugincode}` to the `+plugins+` option in the editor configuration.
 
 For example:
 
@@ -62,7 +62,7 @@ ____
 The format painter retains the formatting after application making it possible to apply the same formatting multiple times by using the `+Ctrl+Alt+V+` keyboard shortcut.
 ____
 
-== Options
+== Configuration options
 
 The format painter acts upon all xref:content-formatting.adoc#formats[`+formats+`] registered in the editor. In addition to any standard formatting, it will treat *lists* as a block format whenever the xref:lists.adoc[`+lists plugin+`] is made available.
 

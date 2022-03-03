@@ -19,24 +19,24 @@
 
 You can obtain the Google Drive credentials by following the steps below.
 
-[[1-create-the-google-api-key]]
+[[create-the-google-api-key]]
 === 1. Create the Google API Key
 
 . Open the https://console.developers.google.com/apis/credentials[Google Console Credentials] page
 . Click on the `+Create credentials+` button.
 . Click on the `+API key+` item.
 
-[[2-copy-the-new-google-api-key]]
+[[copy-the-new-google-api-key]]
 === 2. Copy the new Google API Key
 
 Copy the generated Google API key this will later be used to configure {cloudfilemanager}:
 
-[[3-create-the-oauth-client-id]]
+[[create-the-oauth-client-id]]
 === 3. Create the OAuth client ID
 
 Click on the `+Create credentials+` button then on `+OAuth client ID+` item:
 
-[[4-fill-in-the-oauth-details]]
+[[fill-in-the-oauth-details]]
 === 4. Fill in the OAuth details
 
 . Select `+Web application+` from `+Application type+`
@@ -44,7 +44,7 @@ Click on the `+Create credentials+` button then on `+OAuth client ID+` item:
 . Click `+create+`.
 . Copy the created `+client id+` it will be used later to configure {cloudfilemanager}.
 
-[[5-restrict-client-id-api-access]]
+[[restrict-client-id-api-access]]
 === 5. Restrict Client ID API access
 
 . Click the edit icons for the Client ID you created
@@ -53,10 +53,10 @@ Click on the `+Create credentials+` button then on `+OAuth client ID+` item:
 . Select `+Google Picker API+` from the dropdown
 . Click `+Save+`
 
-[[6-configure-tinydrive-to-use-the-new-google-drive-credentials]]
+[[configure-tinydrive-to-use-the-new-google-drive-credentials]]
 === 6. Configure tinydrive to use the new Google Drive credentials
 
-The Google Drive API key can be configured by setting the xref:tinydrive-dropbox-and-google-drive.adoc#_tinydrive_google_drive_key[tinydrive_google_drive_key]. The Google OAuth client ID can be configured by setting the xref:tinydrive-dropbox-and-google-drive.adoc#_tinydrive_google_drive_client_id[tinydrive_google_drive_client_id].
+The Google Drive API key can be configured by setting the xref:tinydrive-dropbox-and-google-drive.adoc#tinydrive_google_drive_key[tinydrive_google_drive_key]. The Google OAuth client ID can be configured by setting the xref:tinydrive-dropbox-and-google-drive.adoc#tinydrive_google_drive_client_id[tinydrive_google_drive_client_id].
 
 [source,js]
 ----
@@ -69,9 +69,9 @@ tinymce.init({
 });
 ----
 
-For information on other {cloudfilemanager} config options refer to the xref:tinydrive-dropbox-and-google-drive.adoc#_configuring_with_google_drive[configuration] section of this document.
+For information on other {cloudfilemanager} config options refer to the xref:tinydrive-dropbox-and-google-drive.adoc#configuring_with_google_drive[configuration] section of this document.
 
-[[7-tiny-drive-ui]]
+[[tiny-drive-ui]]
 === 7. Tiny Drive UI
 
 . From the {productname} user interface, click on the image:insertimage.png[Insert/edit image] button to access the {cloudfilemanager} user interface.

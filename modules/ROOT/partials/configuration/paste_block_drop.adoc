@@ -1,4 +1,11 @@
-== {plugincode}_block_drop
+ifeval::["{plugincode}" == "paste"]
+[[paste_block_drop]]
+endif::[]
+ifeval::["{plugincode}" == "powerpaste"]
+[[powerpaste_block_drop]]
+endif::[]
+
+== `{plugincode}_block_drop`
 
 Due to browser limitations, it is not possible to filter content that is dragged and dropped into the editor. When `+pass:a[{plugincode}]_block_drop+` is set to true the plugin will disable drag and dropping content into the editor. This prevents the unfiltered content from being introduced. Copy and paste is still enabled.
 
@@ -6,7 +13,7 @@ Default value : `+false+`
 
 Possible values : `+true+`, `+false+`
 
-=== Example: Using `+pass:a[{plugincode}]_block_drop+`
+=== Example: Using `{plugincode}_block_drop`
 
 [source,js,subs="attributes+"]
 ----

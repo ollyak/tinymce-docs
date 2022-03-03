@@ -1,3 +1,4 @@
+[[tinycomments_delete_all]]
 == `+tinycomments_delete_all+`
 
 The `+tinycomments_delete_all+` function should asynchronously return a flag indicating whether all the comment threads were removed using the `+done+` callback. Unrecoverable errors are communicated to {productname} by calling the `+fail+` callback instead.

@@ -1,3 +1,4 @@
+[[tinycomments_lookup]]
 == `+tinycomments_lookup+`
 
 The Comments plugin uses the `+tinycomments_lookup+` function to retrieve an existing conversation using a conversation's unique ID.

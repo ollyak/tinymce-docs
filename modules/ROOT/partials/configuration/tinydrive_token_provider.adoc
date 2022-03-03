@@ -1,3 +1,4 @@
+[[tinydrive_token_provider]]
 == `+tinydrive_token_provider+`
 
 This option could take one of the following two forms:

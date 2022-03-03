@@ -8,11 +8,11 @@
 
 The following options are required to use the Real-Time Collaboration (RTC) plugin:
 
-* xref:#_rtc_document_id[`+rtc_document_id+`]
-* xref:#_rtc_encryption_provider[`+rtc_encryption_provider+`]
-* xref:#_rtc_token_provider[`+rtc_token_provider+`]
+* xref:rtc_document_id[`+rtc_document_id+`]
+* xref:rtc_encryption_provider[`+rtc_encryption_provider+`]
+* xref:rtc_token_provider[`+rtc_token_provider+`]
 
-For an example showing the minimum required configuration for RTC, see: xref:rtc-getting-started.adoc#_5_configure_the_required_tinymce_rtc_options[Getting started with RTC - Configure the required TinyMCE RTC options].
+For an example showing the minimum required configuration for RTC, see: xref:rtc-getting-started.adoc#configure_the_required_tinymce_rtc_options[Getting started with RTC - Configure the required TinyMCE RTC options].
 
 include::partial$configuration/rtc_document_id.adoc[leveloffset=+1]
 

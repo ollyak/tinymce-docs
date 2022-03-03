@@ -1,3 +1,4 @@
+[[paste_postprocess]]
 == `+paste_postprocess+`
 
 ifeval::["{pluginname}" == "Paste"]

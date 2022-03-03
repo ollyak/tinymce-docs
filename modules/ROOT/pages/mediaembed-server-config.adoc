@@ -15,6 +15,7 @@ When you insert media into your content, the service will do the following (in o
 . If Iframely is configured, query the Iframely API. If Iframely is not configured,
 . Create a summary card.
 
+[[use_your_own_iframely_account]]
 == Use your own Iframely account
 
 To use your own Iframely account, provide the following configuration items:
@@ -51,6 +52,7 @@ ephox {
 }
 ----
 
+[[configure_a_custom_endpoint]]
 == Configure a custom endpoint
 
 The service can be configured to hit a specific oEmbed endpoint when media from a URL matching a provided pattern is inserted into your content.
@@ -292,6 +294,7 @@ ephox {
 }
 ----
 
+[[combining_iframely_and_custom_endpoints]]
 == Combining Iframely and custom endpoints
 
 It is also possible to configure Iframely with custom oEmbed endpoints. For example, you may want to use Iframely to embed media from the Internet and an internal oEmbed server to embed media from an Intranet.
@@ -321,8 +324,9 @@ ephox {
 [source,js]
 ----
 
+[[summary_cards]]
 == Summary cards
 
 If neither Iframely or an oEmbed endpoint is configured for a given URL, a summary card will be created.
 
-A summary card is an embeddable snippet of code which is generated based on what the Enhanced Media Embed service can work out about the content at the URL. See the integration docs for xref:mediaembed-server-integration.adoc[Enhanced Media Embed Server] for further details.
+A summary card is an embeddable snippet of code which is generated based on what the Enhanced Media Embed service can work out about the content at the URL. See the integration docs for xref:mediaembed-server-integration.adoc#summary_cards[Enhanced Media Embed Server] for further details.

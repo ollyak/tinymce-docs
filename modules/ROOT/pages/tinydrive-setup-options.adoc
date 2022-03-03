@@ -10,8 +10,8 @@
 :plugincode: tinydrive
 
 
-include::partial$configuration/tinydrive_token_provider.adoc[]
+include::partial$configuration/tinydrive_token_provider.adoc[leveloffset=+1]
 
-include::partial$configuration/tinydrive_upload_path.adoc[]
+include::partial$configuration/tinydrive_upload_path.adoc[leveloffset=+1]
 
-include::partial$configuration/tinydrive_max_image_dimension.adoc[]
+include::partial$configuration/tinydrive_max_image_dimension.adoc[leveloffset=+1]

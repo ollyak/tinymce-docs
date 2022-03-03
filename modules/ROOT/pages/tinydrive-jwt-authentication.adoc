@@ -17,16 +17,17 @@ A JSON Web Token (JWT) endpoint is a service for generating and providing author
 JWT is a standard authorization solution for web services and is documented in more detail at the https://jwt.io/[https://jwt.io/] website. The guide aims to show how to setup JWT authentication for {pluginname}.
 
 ____
-If you haven't tried any of the xref:tinydrive-getting-started.adoc#_starter_projects[Starter projects] yet, we urge you to try them before trying to implement your solution. The source is also available on Github to study.
+If you haven't tried any of the xref:tinydrive-getting-started.adoc#starter_projects[Starter projects] yet, we urge you to try them before trying to implement your solution. The source is also available on Github to study.
 ____
 
 == Overview
 
-* xref:#_setting_up_jwt_authentication_for_tiny_drive[Setting up JWT authentication for Tiny Drive]
-* xref:#_add_a_public_key_to_the_tiny_cloud_api_key[Add a public key to the Tiny Cloud API key]
-* xref:#_set_up_a_json_web_token_jwt_endpoint[Set up a JSON Web Token (JWT) endpoint]
-* xref:#_jwt_endpoint_examples_[JWT endpoint examples]
+* xref:setting_up_jwt_authentication_for_tiny_drive[Setting up JWT authentication for Tiny Drive]
+* xref:add_a_public_key_to_the_tiny_cloud_api_key[Add a public key to the Tiny Cloud API key]
+* xref:set_up_a_json_web_token_jwt_endpoint[Set up a JSON Web Token (JWT) endpoint]
+* xref:jwt_endpoint_examples[JWT endpoint examples]
 
+[[setting_up_jwt_authentication_for_tiny_drive]]
 == Setting up JWT authentication for Tiny Drive
 
 To set up JSON Web Token (JWT) authentication for {productname} {pluginname}:
@@ -37,6 +38,7 @@ To set up JSON Web Token (JWT) authentication for {productname} {pluginname}:
 
 include::partial$auth/private-public-key-pairs-for-tiny-cloud-services.adoc[]
 
+[[set_up_a_json_web_token_jwt_endpoint]]
 == Set up a JSON Web Token (JWT) endpoint
 
 include::partial$auth/how-jwts-are-used.adoc[]
@@ -64,13 +66,15 @@ ____
 *Note*: The "`+sub+`" claim is a case-sensitive string containing a *String* or *URI* value. The `+sub+` claim cannot have a `+:+` _unless_ it is a valid URI or else the callback will fail.
 ____
 
+[[jwt_endpoint_examples]]
 == JWT endpoint examples
 
 The following examples show a minimal JWT endpoint and how to configure {productname} to use them.
 
-* xref:#_php_token_provider_endpoint_example[PHP token provider endpoint example]
-* xref:#_node_js_token_provider_endpoint_example[Node.js token provider endpoint example]
+* xref:php_token_provider_endpoint_example[PHP token provider endpoint example]
+* xref:node_js_token_provider_endpoint_example[Node.js token provider endpoint example]
 
+[[php_token_provider_endpoint_example]]
 === PHP token provider endpoint example
 
 This example uses the https://github.com/firebase/php-jwt[Firebase JWT library] provided through the Composer dependency manager.
@@ -131,6 +135,7 @@ tinymce.init({
 });
 ----
 
+[[node_js_token_provider_endpoint_example]]
 === Node.js token provider endpoint example
 
 This example shows you how to set up a Node.js express handler that produces the tokens. It requires you to install the Express web framework and the `+jsonwebtoken+` Node modules. For instructions on setting up a basic Node.js Express server and adding {productname}, see: xref:expressjs-pm.adoc[Integrating TinyMCE into an Express JS App].

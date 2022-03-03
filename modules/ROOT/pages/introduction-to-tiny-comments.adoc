@@ -11,9 +11,10 @@
 == Contents
 
 * For help using comments in TinyMCE, see: xref:comments_using_comments.adoc[Using comments].
-* For an overview of the TinyMCE Comments plugin, see: xref:#_overview[Overview].
-* For information on adding and configuring the comments plugin for TinyMCE, see: xref:#_getting_started_with_the_comments_plugin__selecting_a_mode[Getting started with the Comments plugin - Selecting a mode].
+* For an overview of the TinyMCE Comments plugin, see: xref:overview[Overview].
+* For information on adding and configuring the comments plugin for TinyMCE, see: xref:getting_started_with_the_comments_plugin__selecting_a_mode[Getting started with the Comments plugin - Selecting a mode].
 
+[[overview]]
 == Overview
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -40,12 +41,13 @@ The Comments plugin allows the user to perform the following functions:
 
 === Interactive example
 
-The following example shows how to configure the Comments plugin in *embedded* mode. For information on configuring the Comments plugin, see: xref:#_getting_started_with_the_comments_plugin__selecting_a_mode[Comments plugin Modes].
+The following example shows how to configure the Comments plugin in *embedded* mode. For information on configuring the Comments plugin, see: xref:getting_started_with_the_comments_plugin__selecting_a_mode[Comments plugin Modes].
 
 liveDemo::comments-embedded[ ]
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 
+[[getting_started_with_the_comments_plugin__selecting_a_mode]]
 == Getting started with the Comments plugin - Selecting a mode
 
 The Comments plugin is available in two _modes_: *Callback mode* and *Embedded mode*.

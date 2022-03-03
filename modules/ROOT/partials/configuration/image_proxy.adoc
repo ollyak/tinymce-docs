@@ -1,8 +1,10 @@
 ifeval::["{plugincode}" == "export"]
 :proxy_setting_name: export_image_proxy
+[[export_image_proxy]]
 endif::[]
 ifeval::["{plugincode}" != "export"]
 :proxy_setting_name: imagetools_proxy
+[[imagetools_proxy]]
 endif::[]
 
 == `+pass:a[{proxy_setting_name}]+`

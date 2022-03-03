@@ -7,7 +7,7 @@
 :plugincode: tinydrive
 :altplugincode: nil
 
-include::partial$configuration/tinydrive_skin.adoc[]
+include::partial$configuration/tinydrive_skin.adoc[leveloffset=+1]
 
 == Configuring the Insert File toolbar button
 

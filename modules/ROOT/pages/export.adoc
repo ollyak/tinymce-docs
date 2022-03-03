@@ -5,11 +5,12 @@
 :keywords: plugin export pdf
 :pluginname: Export
 :plugincode: export
+:pluginminimumplan: tiertwo
 :altplugincode: nil
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
-The {pluginname} plugin adds the ability to export content from the editor to a user's local machine in various formats. For a list of available exporters and information on what they support, see the xref:#_exporters[Exporters section].
+The {pluginname} plugin adds the ability to export content from the editor to a user's local machine in various formats. For a list of available exporters and information on what they support, see the xref:exporters[Exporters section].
 
 == Interactive example
 
@@ -20,14 +21,11 @@ To export the editor content, either:
 
 liveDemo::export[ ]
 
-:pluginminimumplan: tiertwo
-
-
 include::partial$misc/purchase-premium-plugins.adoc[]
 
 == Basic setup
 
-To add the {pluginname} plugin to the editor, add `+pass:a[{plugincode}]+` to the `+plugins+` option in the editor configuration.
+To add the {pluginname} plugin to the editor, add `{plugincode}` to the `+plugins+` option in the editor configuration.
 
 For example:
 
@@ -41,12 +39,14 @@ tinymce.init({
 });
 ----
 
+[[exporters]]
 == Exporters
 
 The {pluginname} plugin provides the following exporters:
 
-* xref:#_client_side_pdf_clientpdf[Client-side PDF (`+clientpdf+`)]
+* xref:client_side_pdf_clientpdf[Client-side PDF (`+clientpdf+`)]
 
+[[client_side_pdf_clientpdf]]
 === Client-side PDF (`+clientpdf+`)
 
 The client-side PDF exporter converts the editor content to a PDF without the need for server-side components. This exporter will resize the content to fit on A4 pages, add page breaks, take a snapshot of the HTML, and embed the snapshot image within the exported PDF.
@@ -56,7 +56,7 @@ This exporter has a few limitations or known issues that should be noted:
 * The text content in the PDF cannot be selected or copied.
 * A single line of content sliced horizontally and distributed across separate pages.
 * Due to browser limitations, there is a limit on the number of pages that can be rendered. The number of pages varies between browsers.
-* Remote images require an image proxy to render due to browser limitations. For information on proxying remote images, see the xref:#_export_image_proxy[export_image_proxy] option.
+* Remote images require an image proxy to render due to browser limitations. For information on proxying remote images, see the xref:export_image_proxy[export_image_proxy] option.
 * Right-to-left languages that use cursive scripts (such as Arabic) may not render correctly due to an issue with how the image of the HTML content is rendered.
 * The xref:checklist.adoc[Checklist plugin] icons will not render for Internet Explorer 11 users due to browser limitations.
 

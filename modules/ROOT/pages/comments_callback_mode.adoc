@@ -34,15 +34,15 @@ After a user comments (triggering `+tinycomments_create+` for the first comment,
 
 When using callback mode, the Comments plugin requires callback functions for the following options:
 
-* xref:#_tinycomments_create[`+tinycomments_create+`]
-* xref:#_tinycomments_reply[`+tinycomments_reply+`]
-* xref:#_tinycomments_edit_comment[`+tinycomments_edit_comment+`]
-* xref:#_tinycomments_delete_comment[`+tinycomments_delete_comment+`]
-* xref:#_tinycomments_delete[`+tinycomments_delete+`]
-* xref:#_tinycomments_delete_all[`+tinycomments_delete_all+`]
-* xref:#_tinycomments_lookup[`+tinycomments_lookup+`]
+* xref:tinycomments_create[`+tinycomments_create+`]
+* xref:tinycomments_reply[`+tinycomments_reply+`]
+* xref:tinycomments_edit_comment[`+tinycomments_edit_comment+`]
+* xref:tinycomments_delete_comment[`+tinycomments_delete_comment+`]
+* xref:tinycomments_delete[`+tinycomments_delete+`]
+* xref:tinycomments_delete_all[`+tinycomments_delete_all+`]
+* xref:tinycomments_lookup[`+tinycomments_lookup+`]
 
-The xref:#_tinycomments_resolve[`+tinycomments_resolve+`] option is _optional_.
+The xref:tinycomments_resolve[`+tinycomments_resolve+`] option is _optional_.
 
 include::partial$configuration/tinycomments_create.adoc[leveloffset=+1]
 

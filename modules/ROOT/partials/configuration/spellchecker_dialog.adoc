@@ -1,9 +1,10 @@
+[[spellchecker_dialog]]
 == `+spellchecker_dialog+`
 
 This option specifies the primary spell checking mode.
 
-* When set to `+true+`, the xref:#_toolbar_buttons[`+spellcheck+` toolbar button] will open a dialog that will step the user through each potential spelling error in the document.
-* When set to `+false+`, the xref:#_toolbar_buttons[`+spellcheck+` toolbar button] will enable or disable as-you-type spell checking and the xref:#_toolbar_buttons[`+spellcheckdialog+` toolbar button] will open the spell checker dialog.
+* When set to `+true+`, the xref:toolbar_buttons[`+spellcheck+` toolbar button] will open a dialog that will step the user through each potential spelling error in the document.
+* When set to `+false+`, the xref:toolbar_buttons[`+spellcheck+` toolbar button] will enable or disable as-you-type spell checking and the xref:toolbar_buttons[`+spellcheckdialog+` toolbar button] will open the spell checker dialog.
 
 Type : `+Boolean+`
 

@@ -27,7 +27,7 @@ Store the keys temporarily somewhere as you will need to copy & paste them later
 
 === Procedure
 
-[[1-clone-this-repo-to-your-local-machine-using]]
+[[clone-this-repo-to-your-local-machine-using]]
 ==== 1. Clone this repo to your local machine using
 
 These are the steps needed to get this project running on your machine:
@@ -37,17 +37,17 @@ These are the steps needed to get this project running on your machine:
 $ git clone git@github.com:tinymce/tinydrive-nodejs-starter.git
 ----
 
-[[2-change-the-apikey-in-tinydrive-nodejs-starterconfigjs]]
+[[change-the-apikey-in-tinydrive-nodejs-starterconfigjs]]
 ==== 2. Change the `+apiKey+` in `+tinydrive-nodejs-starter/config.js+`
 
 You get the API key from the `+API Key Manager+` {accountpage} page at http://tiny.cloud.
 
-[[3-create-a-tinydrive-nodejs-starterprivatekey-file-containing-your-generated-private-rsa-key]]
+[[create-a-tinydrive-nodejs-starterprivatekey-file-containing-your-generated-private-rsa-key]]
 ==== 3. Create a `+tinydrive-nodejs-starter/private.key+` file containing your generated private RSA key
 
 You get the private RSA key from the `+JWT Key Manager+` {accountpage} page at http://tiny.cloud.
 
-[[4-go-to-the-directory-and-install-npm-packages-and-then-start-the-dev-server]]
+[[go-to-the-directory-and-install-npm-packages-and-then-start-the-dev-server]]
 ==== 4. Go to the directory and install npm packages and then start the dev server
 
 [source,shell script]
@@ -57,7 +57,7 @@ $ npm i
 $ npm run start
 ----
 
-[[5-open-the-example-project-at-httplocalhost3000]]
+[[open-the-example-project-at-httplocalhost3000]]
 ==== 5. Open the example project at http://localhost:3000
 
 == Implementing with your system

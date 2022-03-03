@@ -3,10 +3,12 @@
 :description: List of Tiny Drive options for integrating with Dropbox and Google Drive.
 :keywords: tinydrive configuration
 
+[[configuring_with_dropbox]]
 == Configuring with Dropbox
 
 include::partial$configuration/tinydrive_dropbox_app_key.adoc[leveloffset=+1]
 
+[[configuring_with_google_drive]]
 == Configuring with Google Drive
 
 include::partial$configuration/tinydrive_google_drive_key.adoc[leveloffset=+1]
