@@ -27,7 +27,7 @@ Return data :
 [cols=",,",options="header",]
 |===
 |Field |Type |Description
-|`+token+` |`+string+` | A generated JWT token. This token should be signed with a private key as described in xref:rtc-jwt-authentication.adoc#jwt_endpoint_requirements[JWT authentication].
+|`+token+` |`+string+` | A generated JWT token. This token should be signed with a private key as described in xref:rtc-jwt-authentication.adoc#jwt-endpoint-requirements[JWT authentication].
 |===
 
 === Required JWT claims

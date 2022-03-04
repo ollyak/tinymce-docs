@@ -6,8 +6,8 @@
 :controls: toolbar button
 :pluginname: Checklist
 :plugincode: checklist
-:pluginminimumplan: tiertwo
 :altplugincode: nil
+:pluginminimumplan: tiertwo
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -52,9 +52,7 @@ tinymce.init({
 });
 ----
 
-____
-*Note*: The *Checklist* plugin has to be used together with the xref:lists.adoc[Lists] plugin to work.
-____
+NOTE: The *Checklist* plugin has to be used together with the xref:lists.adoc[Lists] plugin to work.
 
 == CSS
 

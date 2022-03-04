@@ -5,9 +5,9 @@
 :keywords: sort rownumbering series tables advanced advtable premium
 :pluginname: Advanced Tables
 :plugincode: advtable
+:altplugincode: nil
 :plugincategory: premium
 :pluginminimumplan: tierthree
-:altplugincode: nil
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
@@ -56,9 +56,7 @@ The plugin is capable of sorting:
 * Numerical data
 * Text data
 
-____
-*Note*: Currently, the sort function will treat cells with Alphanumeric data as Text data. This includes currency symbols which are text characters.
-____
+NOTE: Currently, the sort function will treat cells with Alphanumeric data as Text data. This includes currency symbols which are text characters.
 
 == Adding row numbering to a table
 

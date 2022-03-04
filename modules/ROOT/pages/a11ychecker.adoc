@@ -5,8 +5,8 @@
 :keywords: a11y accessibility WCAG
 :pluginname: Accessibility Checker
 :plugincode: a11ychecker
-:pluginminimumplan: tierthree
 :altplugincode: nil
+:pluginminimumplan: tierthree
 :includedSection: a11yPlugin
 
 
@@ -22,7 +22,7 @@ include::partial$misc/purchase-premium-plugins.adoc[]
 
 == Basic setup
 
-To add the {pluginname} plugin to the editor, add `+{plugincode}+` to the `+plugins+` option in the editor configuration.
+To add the {pluginname} plugin to the editor, add `{plugincode}` to the `+plugins+` option in the editor configuration.
 
 For example:
 
@@ -35,7 +35,7 @@ tinymce.init({
 });
 ----
 
-[[accessibility_rules]]
+[[accessibility-rules]]
 == Accessibility Rules
 
 The following checks are available for the {pluginname} plugin. The rules checked depends on:
@@ -227,9 +227,7 @@ WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H39.html[
 
 *Rule description:* This rule checks that all complex tables must have a `+summary+` attribute explaining to users of assistive technologies how to navigate through the data inside of the table.
 
-____
-*Note*: This rule only applies to HTML 4 content and is not checked when `+a11ychecker_html_version+` is set to `+html5+`.
-____
+NOTE: This rule only applies to HTML 4 content and is not checked when `+a11ychecker_html_version+` is set to `+html5+`.
 
 ==== {pluginname} rule details - T2
 
@@ -245,9 +243,7 @@ WCAG 2.1 specification : https://www.w3.org/WAI/WCAG21/Techniques/html/H73.html[
 
 *Rule description:* This rule checks that the table caption and summary does not have the same text content. The caption should explain *what* the table is about while the summary should explain *how* to navigate the data inside of the table.
 
-____
-*Note*: The table `+summary+` attribute was deprecated in HTML 5, both the *what* and *how* information should be moved to the table caption.
-____
+NOTE: The table `+summary+` attribute was deprecated in HTML 5, both the *what* and *how* information should be moved to the table caption.
 
 ==== {pluginname} rule details - T3
 
@@ -344,7 +340,7 @@ editor.plugins.a11ychecker.toggleaudit();
 
 Conducts an accessibility audit and reports the results without opening the dialog. The report produced is an array of objects, where each object represents an issue and contains the following details:
 
-id : The issue identifier used by {productname}, such as D1, T4A. For a description and other details about the issue, see xref:accessibility_rules[Accessibility Rules].
+id : The issue identifier used by {productname}, such as D1, T4A. For a description and other details about the issue, see xref:accessibility-rules[Accessibility Rules].
 
 description : A description of the issue.
 

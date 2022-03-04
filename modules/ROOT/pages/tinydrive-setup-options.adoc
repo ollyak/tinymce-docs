@@ -1,17 +1,14 @@
 = Tiny Drive plugin setup options
 
 :title_nav: Setup options
-
 :description: List of Tiny Drive plugin configuration options for integrating with TinyMCE.
 :keywords: tinydrive configuration
-
 :pluginname: Tiny Drive
-
 :plugincode: tinydrive
+:altplugincode: nil
 
+include::partial$configuration/tinydrive_token_provider.adoc[]
 
-include::partial$configuration/tinydrive_token_provider.adoc[leveloffset=+1]
+include::partial$configuration/tinydrive_upload_path.adoc[]
 
-include::partial$configuration/tinydrive_upload_path.adoc[leveloffset=+1]
-
-include::partial$configuration/tinydrive_max_image_dimension.adoc[leveloffset=+1]
+include::partial$configuration/tinydrive_max_image_dimension.adoc[]

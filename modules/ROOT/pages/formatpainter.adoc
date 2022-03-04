@@ -6,8 +6,8 @@
 :controls: toolbar button
 :pluginname: Format Painter
 :plugincode: formatpainter
-:pluginminimumplan: tiertwo
 :altplugincode: nil
+:pluginminimumplan: tiertwo
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -58,9 +58,7 @@ The format painter operates in two modes, one for retrieval and one for applicat
 . Select the goal content to apply the formatting.
 . Press the `+Ctrl+Alt+V+` keys to apply the formatting.
 
-____
-The format painter retains the formatting after application making it possible to apply the same formatting multiple times by using the `+Ctrl+Alt+V+` keyboard shortcut.
-____
+TIP: The format painter retains the formatting after application making it possible to apply the same formatting multiple times by using the `+Ctrl+Alt+V+` keyboard shortcut.
 
 == Options
 

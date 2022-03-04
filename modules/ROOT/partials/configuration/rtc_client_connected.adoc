@@ -16,8 +16,6 @@ Type : `+Function+`
 Input parameters :
 include::partial$rtc/rtc-client-connect-inputs.adoc[]
 
-____
-*Caution*: {productname} cannot guarantee the accuracy of data which comes from a remote object. {companyname} recommends only using the client information data for status flags. To obtain authentic client information, use the xref:rtc-options-optional.adoc#rtc_user_details_provider[`+rtc_user_details_provider+`] data returned through the `+userDetails+` field.
-____
+CAUTION: {productname} cannot guarantee the accuracy of data which comes from a remote object. {companyname} recommends only using the client information data for status flags. To obtain authentic client information, use the xref:rtc-options-optional.adoc#rtc_user_details_provider[`+rtc_user_details_provider+`] data returned through the `+userDetails+` field.
 
 include::partial$rtc/rtc-client-connect-disconnect-example.adoc[]

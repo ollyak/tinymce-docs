@@ -5,6 +5,7 @@
 :keywords: rtc support functionality
 :pluginname: Real-Time Collaboration (RTC)
 :plugincode: rtc
+:altplugincode: nil
 
 == Browser support
 
@@ -23,9 +24,7 @@ Real-Time Collaboration is currently not supported on mobile devices.
 
 The Real-Time Collaboration (RTC) plugin supports a subset of the features that {productname} provides.
 
-____
-*Warning*: Enabling plugins not shown here is not supported and may lead to unexpected behavior.
-____
+WARNING: Enabling plugins not shown here is not supported and may lead to unexpected behavior.
 
 The following plugins are currently supported:
 

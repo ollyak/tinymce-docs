@@ -1,7 +1,6 @@
 = Tiny Drive Changelog
 
 :title_nav: Changelog
-
 :description: The history of Tiny Drive releases.
 :keywords: changelog class: changelog
 

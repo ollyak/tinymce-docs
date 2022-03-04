@@ -69,7 +69,7 @@ tinymce.init({
 });
 ----
 
-For information on other {cloudfilemanager} config options refer to the xref:tinydrive-dropbox-and-google-drive.adoc#configuring_with_google_drive[configuration] section of this document.
+For information on other {cloudfilemanager} config options refer to the xref:tinydrive-dropbox-and-google-drive.adoc#configuring-with-google-drive[configuration] section of this document.
 
 [[tiny-drive-ui]]
 === 7. Tiny Drive UI

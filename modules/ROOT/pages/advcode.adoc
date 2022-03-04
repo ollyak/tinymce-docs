@@ -7,6 +7,7 @@
 :pluginname: Advanced Code Editor
 :plugincode: advcode
 :altplugincode: code
+:pluginminimumplan: tiertwo
 
 include::partial$misc/admon_premium_plugin.adoc[]
 
@@ -21,9 +22,6 @@ The xref:advcode.adoc[Advanced Code Editor] plugin (`+advcode+`) brings a more a
 == The difference between the Code and Advanced Code Editor plugins
 
 liveDemo::advcode[ ]
-
-:pluginminimumplan: tiertwo
-
 
 include::partial$misc/purchase-premium-plugins.adoc[]
 

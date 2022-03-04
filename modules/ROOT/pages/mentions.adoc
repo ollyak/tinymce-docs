@@ -5,6 +5,7 @@
 :keywords: mentions atmentions
 :pluginname: Mentions
 :plugincode: mentions
+:altplugincode: nil
 :pluginminimumplan: enterprise
 
 include::partial$misc/admon_premium_plugin.adoc[]

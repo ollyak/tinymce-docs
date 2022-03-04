@@ -33,9 +33,7 @@ Return data :
 |===
 
 
-____
-*Warning*: Do not include secret or sensitive information in the key hint. The key hint is stored by the server in plain text.
-____
+WARNING: Do not include secret or sensitive information in the key hint. The key hint is stored by the server in plain text.
 
 === Example: Using `+rtc_encryption_provider+`
 

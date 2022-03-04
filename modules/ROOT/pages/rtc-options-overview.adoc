@@ -5,6 +5,7 @@
 :keywords: rtc configuration
 :pluginname: Real-Time Collaboration (RTC)
 :plugincode: rtc
+:altplugincode: nil
 
 == Configuration style
 

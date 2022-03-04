@@ -1,9 +1,7 @@
 [[content_langs]]
 == `+content_langs+`
 
-____
 NOTE: This feature is only available for TinyMCE 5.9 and later. The `+content_langs+` option replaces the `+spellchecker_select_languages+` option. The value of the `+spellchecker_select_languages+` option, or its default, are used as a fallback for `+content_langs+`.
-____
 
 include::partial$configuration/content_langs_base.adoc[]
 

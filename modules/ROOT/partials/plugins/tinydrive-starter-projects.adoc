@@ -1,4 +1,4 @@
-[[starter_projects]]
+[[starter-projects]]
 == Starter projects
 
 To get started quickly and understand how {cloudfilemanager} works, {companyname} recommends trying one of the starter projects on GitHub to set up a {cloudfilemanager}.

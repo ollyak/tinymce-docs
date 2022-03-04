@@ -1,24 +1,24 @@
 = Using TinyMCE Comments
 
 :title_nav: Using Comments
-
 :description: How to add, edit, resolve, and remove comments in TinyMCE
 :keywords: comments commenting tinycomments
 :pluginname: Comments
 :plugincode: comments
+:altplugincode: nil
 
 
 I'm trying to:
 
-* xref:add_a_comment[Add a comment].
-* xref:edit_a_comment[Edit a comment].
-* xref:delete_a_comment[Delete a comment].
-* xref:delete_a_comment_thread_conversation[Delete a comment thread (conversation)].
-* xref:resolve_a_comment_thread_conversation[Resolve a comment thread (conversation)].
-* xref:show_or_view_a_comment[Show or view a comment].
-* xref:delete_all_comment_threads[Delete all comment threads].
+* xref:add-a-comment[Add a comment].
+* xref:edit-a-comment[Edit a comment].
+* xref:delete-a-comment[Delete a comment].
+* xref:delete-a-comment-thread-conversation[Delete a comment thread (conversation)].
+* xref:resolve-a-comment-thread-conversation[Resolve a comment thread (conversation)].
+* xref:show-or-view-a-comment[Show or view a comment].
+* xref:delete-all-comment-threads[Delete all comment threads].
 
-[[add_a_comment]]
+[[add-a-comment]]
 == Add a comment
 
 . Select the text from the desired location in the editor body.
@@ -33,7 +33,7 @@ image:comments-edit.png[Delete Conversation]
 
 Note: The above procedure can be followed for adding multiple comments to the document.
 
-[[edit_a_comment]]
+[[edit-a-comment]]
 == Edit a comment
 
 Follow this procedure to edit a comment.
@@ -43,7 +43,7 @@ Follow this procedure to edit a comment.
 . The comment field becomes editable. Make the required changes.
 . Click *Cancel* to discard or *Save* to store the changes.
 
-[[delete_a_comment]]
+[[delete-a-comment]]
 == Delete a comment
 
 Follow this procedure to delete a comment. This option is not available for the first comment in a conversation.
@@ -53,7 +53,7 @@ Follow this procedure to delete a comment. This option is not available for the 
 . The following options appear in the comments sidebar: image:comments-delete-comment.png[delete comment]
 . Click *Cancel* to cancel the action or *Delete* to remove the comment from the conversation.
 
-[[delete_a_comment_thread_conversation]]
+[[delete-a-comment-thread-conversation]]
 == Delete a comment thread (conversation)
 
 This option is only available for the first comment in a conversation. Once the comment is saved, follow this procedure to delete a conversation.
@@ -65,12 +65,10 @@ This option is only available for the first comment in a conversation. Once the 
 
 *Result*: The conversation and all its subsequent comments will be deleted.
 
-[[resolve_a_comment_thread_conversation]]
+[[resolve-a-comment-thread-conversation]]
 == Resolve a comment thread (conversation)
 
-____
-*NOTE*: This feature requires the xref:comments_callback_mode.adoc#tinycomments_resolve[`+tinycomments_resolve+`] or xref:comments_embedded_mode.adoc#tinycomments_can_resolve[`+tinycomments_can_resolve+`] setting to be configured.
-____
+NOTE: This feature requires the xref:comments-callback-mode.adoc#tinycomments_resolve[`+tinycomments_resolve+`] or xref:comments-embedded-mode.adoc#tinycomments_can_resolve[`+tinycomments_can_resolve+`] setting to be configured.
 
 This option is only available for the first comment in a conversation. Once a comment is saved, follow this procedure to resolve a conversation.
 
@@ -81,7 +79,7 @@ This option is only available for the first comment in a conversation. Once a co
 
 *Result*: The conversation will be resolved.
 
-[[show_or_view_a_comment]]
+[[show-or-view-a-comment]]
 == Show or view a comment
 
 Follow this procedure to display the comments sidebar:
@@ -91,7 +89,7 @@ Follow this procedure to display the comments sidebar:
 
 *Result*: The comments sidebar will appear and display the corresponding conversation for the highlighted text.
 
-[[delete_all_comment_threads]]
+[[delete-all-comment-threads]]
 == Delete all comment threads
 
 Follow this procedure to delete all conversations in the document:

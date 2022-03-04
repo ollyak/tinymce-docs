@@ -1,7 +1,6 @@
 = Integrate Enhanced Media Embed Server
 
 :description: Using the Enhanced Media Embed server with non-public content such as a corporate CMS.
-
 :keywords: enterprise pricing video youtube vimeo mp3 mp4 mov movie clip film link linkchecking linkchecker mediaembed media
 
 
@@ -32,9 +31,7 @@ As an example:
 
 If your content is marked up with Open Graph tags and is accessible with a HTTP GET request from the Enhanced Media Embed server, then business card style embeds will be created based on your content.
 
-____
 NOTE: If Iframely is enabled in the configuration, then the Open Graph look up will be performed by Iframely. Iframely requires that the content be publicly accessible on the Internet.
-____
 
 At a minimum, you’ll need to define these Open Graph tags:
 
@@ -78,11 +75,11 @@ As an alternative to Open Graph tags, you can include meta tags using the older 
 
 As an alternative to including meta tags in your content, you can write a custom API that returns JSON in either the oEmbed or {productname} Enhanced Media Embed formats.
 
-See the docs on xref:mediaembed-server-config.adoc#configure_a_custom_endpoint[configuring a custom endpoint] for details on getting the Enhanced Media Embed server to utilize your custom API.
+See the docs on xref:mediaembed-server-config.adoc#configure-a-custom-endpoint[configuring a custom endpoint] for details on getting the Enhanced Media Embed server to utilize your custom API.
 
 === OEmbed endpoint
 
-This is a popular choice and many CMSs have existing plugins that support oEmbed. While you can create custom HTML embeds this way, they cannot contain scripts. If the HTML contains a script, then the Enhanced Media Embed server will embed a xref:mediaembed-server-config.adoc#summary_cards[summary card].
+This is a popular choice and many CMSs have existing plugins that support oEmbed. While you can create custom HTML embeds this way, they cannot contain scripts. If the HTML contains a script, then the Enhanced Media Embed server will embed a xref:mediaembed-server-config.adoc#summary-cards[summary card].
 
 ==== Pros
 
@@ -97,7 +94,7 @@ This is a popular choice and many CMSs have existing plugins that support oEmbed
 
 === TinyMCE Enhanced Media Embed endpoint
 
-The other option for developing a custom API endpoint is to return JSON in the xref:tinymce_enhanced_media_embed_format[{productname} Enhanced Media Embed format].
+The other option for developing a custom API endpoint is to return JSON in the xref:tinymce-enhanced-media-embed-format[{productname} Enhanced Media Embed format].
 
 ==== Pros
 
@@ -111,7 +108,7 @@ The other option for developing a custom API endpoint is to return JSON in the x
 * No support from existing plugins
 * The {productname} editor does not fully take advantage of this format yet
 
-[[tinymce_enhanced_media_embed_format]]
+[[tinymce-enhanced-media-embed-format]]
 === TinyMCE Enhanced Media Embed format
 
 ==== HTTP response status codes
@@ -328,7 +325,7 @@ No additional fields when `+type+` is `+unbounded+`.
 * `+msg+` (required)
 ** A string message for developers / support people.
 
-[[summary_cards]]
+[[summary-cards]]
 == Summary cards
 
 When the Enhanced Media Embed server generates a summary card of a URL (using the title, thumbnail, description and website), it returns an HTML snippet like the following. You should apply styles to the document style to suit these to your preference.

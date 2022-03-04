@@ -19,9 +19,7 @@ The `+done+` callback should accept the following object:
 }
 ----
 
-____
-*Note*: Failure to delete due to permissions or business rules is indicated by "false", while unexpected errors should be indicated using the "fail" callback.
-____
+NOTE: Failure to delete due to permissions or business rules is indicated by "false", while unexpected errors should be indicated using the "fail" callback.
 
 For example:
 

@@ -10,8 +10,8 @@ Type : `+Function+`
 Default Value :
 [source,js]
 ----
-function(issue){
-    return true;
+function(issue) {
+  return true;
 }
 ----
 

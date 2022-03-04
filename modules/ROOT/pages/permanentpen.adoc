@@ -6,8 +6,8 @@
 :controls: toolbar button, contextmenu, menu item
 :pluginname: Permanent Pen
 :plugincode: permanentpen
-:pluginminimumplan: tiertwo
 :altplugincode: nil
+:pluginminimumplan: tiertwo
 
 
 include::partial$misc/admon_premium_plugin.adoc[]
@@ -85,9 +85,7 @@ image:right-click.png[Right-click]
 
 *Result*: The *Permanent Pen Properties* dialog box appears.
 
-____
-*Note*: The Permanent Pen has to be enabled to access the *Permanent Pen Properties* dialog box by right-clicking the text. On the other hand, the menubar option can be accessed without enabling the Permanent Pen.
-____
+NOTE: The Permanent Pen has to be enabled to access the *Permanent Pen Properties* dialog box by right-clicking the text. On the other hand, the menubar option can be accessed without enabling the Permanent Pen.
 
 == Changing Permanent Pen properties
 
