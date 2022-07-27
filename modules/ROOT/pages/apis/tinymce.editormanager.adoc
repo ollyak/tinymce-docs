@@ -1,0 +1,14 @@
+= tinymce.EditorManager
+:navtitle: tinymce.EditorManager
+:description: This is the base class for the link:../tinymce.root/[&#x60;tinymce&#x60;] global, a factory for link:../tinymce.editor/[&#x60;tinymce.Editor&#x60;] instances.  The global link:../tinymce.root/[&#x60;tinymce&#x60;] is the only one expected to be created.
+:keywords: 
+:moxie-type: api
+
+This is the base class for the link:../tinymce.root/[`tinymce`] global, a factory for link:../tinymce.editor/[`tinymce.Editor`] instances.  The global link:../tinymce.root/[`tinymce`] is the only one expected to be created.
+
+[[examples]]
+== Examples
+[source, javascript]
+----
+tinymce.EditorManager.init({});
+----

@@ -4,7 +4,7 @@ set -e
 
 API_VERSION="$(cat .api-version)"
 TARBALL_URL="https://codeload.github.com/tinymce/tinymce/tar.gz/$API_VERSION"
-API_TMPDIR="/tmp/tinymce-$API_VERSION"
+API_TMPDIR="/tmp/tinymce-docs"
 
 echo -e "\n > importing data files for tinymce api reference: $API_VERSION\n"
 
