@@ -217,10 +217,10 @@
   dependencies:
     liquidjs "^9.37.0"
 
-"@tinymce/moxiedoc@^0.3.0-feature.20220822040129921.sha302e003":
-  version "0.3.0-feature.20220822040129921.sha302e003"
-  resolved "https://registry.yarnpkg.com/@tinymce/moxiedoc/-/moxiedoc-0.3.0-feature.20220822040129921.sha302e003.tgz#b71febac7e2aa89108aa5eaea7d26ab56c2650fc"
-  integrity sha512-FgSRVIjchO+dU6d2hQKY+GYaTrtiVUtzn3ISletCrSPD+HPlJoV3ROdI0ljOiiWAMibauWOQRD0a3y03O5UAAQ==
+"@tinymce/moxiedoc@0.3.0-rc.20220826083149317.sha77c67b2":
+  version "0.3.0-rc.20220826083149317.sha77c67b2"
+  resolved "https://registry.yarnpkg.com/@tinymce/moxiedoc/-/moxiedoc-0.3.0-rc.20220826083149317.sha77c67b2.tgz#04646c246fcc349e01bc0ee5c2cd874c2acc001e"
+  integrity sha512-XNk38M+6gBX//+640wvXhWtXhMM0JCnFfStAyOfJcvLW6aXWiF92svDPYAM5IArg4sEUKZhURchpJxGJ1DgaLw==
   dependencies:
     cli-color "^2.0.0"
     commander "^7.0.0"
